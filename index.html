@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./src/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -20,11 +20,15 @@
   </head>
   <body>
     <nav class="nav">
+     <a href="index.html">
       <h2>Clothing Store</h2>
+     </a>
+     <a href="cart.html">
       <div class="cart">
         <i class="fa-solid fa-cart-shopping"></i>
-        <div class="cartAmount">0</div>
+        <div id="cartAmount" class="cartAmount">0</div>
       </div>
+     </a>
     </nav>
     <div class="shop" id="shop">
       <!-- <div class="item">
@@ -89,5 +93,6 @@
       </div> -->
     </div>
   </body>
-  <script src="main.js"></script>
+  <script src="./src/Data.js"></script>
+  <script src="./src/main.js"></script>
 </html>
